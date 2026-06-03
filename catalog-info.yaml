@@ -1,0 +1,18 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: commons
+  title: commons
+  description: Go common Shared library
+  annotations:
+    backstage.io/source-location: url:https://github.com/donaldgifford/commons
+    backstage.io/techdocs-ref: "dir:."
+  tags:
+    - homelab
+  namespace: default
+spec:
+  lifecycle: production
+  type: library
+  owner: donald
+  system: homelab
